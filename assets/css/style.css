@@ -73,8 +73,107 @@ body {
 }
 
 .btn {
-    font-weight: 600;
-    
+  font-weight: 600;
+}
+
+/* ------ Review div ------ */
+
+.review-block {
+  max-width: 100%;
+  margin-bottom: 40px;
+}
+
+.paragraph-1 {
+  margin: 100px 50px 0px;
+  padding: 20px 140px;
+  font-family: "Exo", sans-serif;
+  color: rgba(0, 0, 0, 0.73);
+  font-size: 20px;
+  text-align: center;
+  text-transform: capitalize;
+}
+
+/* ------ Containers ------ */
+
+.body-container {
+  padding-top: 0px;
+  padding-right: 10px;
+  padding-left: 10px;
+  max-width: 100%;
+}
+
+.flex-container {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+}
+
+/* ------ Features ------ */
+
+.feature-section {
+  padding-top: 40px;
+  padding-bottom: 40px;
+  font-family: "Ubuntu", Helvetica, sans-serif;
+}
+
+.row {
+  margin: 0;
+}
+
+.feature-image-mask {
+  max-width: 50%;
+}
+
+.feature-image {
+  width: 60%;
+  height: 100%;
+  -o-object-fit: cover;
+  object-fit: contain;
+  -o-object-position: 50% 50%;
+  object-position: 50% 50%;
+  margin-left: 25%;
+}
+
+.heading-6 {
+    font-family: "Ubuntu", Helvetica, sans-serif;
+    color: rgba(0, 0, 0, 0.73);
+    font-size: 18px;
+    font-weight: 500;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    text-align: left;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    padding-right: 25%;
+}
+
+.paragraph-2 {
+    font-family: "Ubuntu", Helvetica, sans-serif;
+    color: rgba(0, 0, 0, 0.73);
+    font-size: 16px;
+    text-transform: capitalize;
+    text-align: left;
+    padding-right: 25%;
+    margin-bottom: 30px;
+}
+
+.shop-btn {
+    text-align: center;
+    margin-top: 30px;
 }
 
 /* ------ Media query ------ */
@@ -90,5 +189,55 @@ body {
     font-size: 1.5rem;
     font-weight: 500;
     color: rgba(255, 255, 255, 0.9);
+  }
+
+  .flex-container {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+  }
+
+  .feature-section {
+    padding: 40px 20px;
+  }
+
+  .feature-image-mask {
+    margin-right: 0px;
+    -webkit-align-self: center;
+    -ms-flex-item-align: center;
+    -ms-grid-row-align: center;
+    align-self: center;
+  }
+
+  .feature-image {
+    width: 100%;
+    height: 100%;
+    margin-left: 50%;
+  }
+
+  .heading-6, .paragraph-2 {
+      text-align: center;
+      padding-right: 0;
+      margin: 20px 20%;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .paragraph-1 {
+    padding: 0;
+    margin: 0 20px;
+  }
+
+  .feature-image {
+    width: 140%;
+    height: 100%;
+    margin-left: 40%;
+  }
+
+  .paragraph-2 {
+      padding: 0;
+      margin: 20px;
   }
 }
