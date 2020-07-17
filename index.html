@@ -56,7 +56,12 @@
                 <a class="nav-link" href="#mission">About</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Contact</a>
+                <a
+                  class="nav-link"
+                  data-toggle="modal"
+                  data-target="#contactModal"
+                  >Contact</a
+                >
               </li>
             </ul>
           </div>
@@ -128,7 +133,7 @@
       <div class="row shop-btn">
         <div class="col">
           <a
-            class="btn btn-outline-dark shadow-lg p-3 mb-5 btn-md"
+            class="btn btn-outline-dark"
             href="#"
             role="button"
           >
@@ -227,45 +232,111 @@
       </div>
     </section>
 
+    <section id="contact">
+      <div class="modal" tabindex="-1" role="dialog" id="contactModal">
+        <div class="modal-dialog modal-lg" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title">We'd like to hear from you</h5>
+              <button
+                type="button"
+                class="close"
+                data-dismiss="modal"
+                aria-label="Close"
+              >
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body">
+              <form>
+                <div class="form-group form-row">
+                  <div class="col">
+                    <label for="FirstName">First Name *</label>
+                    <input
+                      type="text"
+                      class="form-control"
+                      placeholder="First name"
+                      required
+                    />
+                  </div>
+                  <div class="col">
+                    <label for="LastName">Last Name *</label>
+                    <input
+                      type="text"
+                      class="form-control"
+                      placeholder="Last name"
+                      required
+                    />
+                  </div>
+                </div>
+                <div class="form-group">
+                  <label for="email">Email address *</label>
+                  <input
+                    type="email"
+                    class="form-control"
+                    id="exampleInputEmail1"
+                    aria-describedby="emailHelp"
+                    placeholder="Enter email"
+                    required
+                  />
+                </div>
+                <textarea
+                  name="message"
+                  id="message"
+                  class="form-control"
+                  placeholder="Share your thoughts"
+                  rows="5"
+                ></textarea>
+                <small id="formHelp" class="form-text text-muted"
+                  >* is required</small
+                >
+                <div class="form-row text-center">
+                  <div class="col">
+                    <button type="submit" class="btn btn-outline-dark">
+                      Get in Touch
+                    </button>
+                  </div>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
     <footer class="container-fluid">
       <div id="footer-details" class="row">
         <div class="col-sm-4">
           <h5 class="footer-heading">Social</h5>
           <ul class="list-inline social-links">
             <li class="list-inline-item">
-              <a href="#" target="_blank">
+              <a href="https://www.facebook.com/" target="_blank">
                 <i class="fa fa-facebook" aria-hidden="true"></i>
                 <span class="sr-only">Facebook</span>
               </a>
             </li>
             <li class="list-inline-item">
-              <a href="#" target="_blank">
+              <a href="https://twitter.com/login" target="_blank">
                 <i class="fa fa-twitter" aria-hidden="true"></i>
                 <span class="sr-only">Twitter</span>
               </a>
             </li>
             <li class="list-inline-item">
-              <a href="#" target="_blank">
+              <a href="https://www.linkedin.com/login" target="_blank">
                 <i class="fa fa-linkedin" aria-hidden="true"></i>
                 <span class="sr-only">LinkedIN</span>
               </a>
             </li>
             <li class="list-inline-item">
-              <a href="#" target="_blank">
+              <a href="https://www.pinterest.com/login/" target="_blank">
                 <i class="fa fa-pinterest" aria-hidden="true"></i>
                 <span class="sr-only">Pinterest</span>
               </a>
             </li>
             <li class="list-inline-item">
-              <a href="#" target="_blank">
+              <a href="https://www.instagram.com/accounts/login/" target="_blank">
                 <i class="fa fa-instagram" aria-hidden="true"></i>
                 <span class="sr-only">Instagram</span>
-              </a>
-            </li>
-            <li class="list-inline-item">
-              <a href="#" target="_blank">
-                <i class="fa fa-youtube" aria-hidden="true"></i>
-                <span class="sr-only">Youtube</span>
               </a>
             </li>
           </ul>
@@ -294,6 +365,9 @@
           </div>
           <h6 class="copy-right">
             Copyright © 2020 Dark Delight. All rights reserved.
+          </h6>
+          <h6 class="info">
+            DARK DELIGHT | GERMANY, BERLIN INFO@DARKDELIGHT.COM
           </h6>
         </div>
         <div class="col-sm-4">

@@ -276,7 +276,17 @@ footer {
   color: rgba(0, 0, 0, 0.73);
   text-transform: capitalize;
   padding-top: 45px;
-  padding-bottom: 50px;
+  padding-bottom: 10px;
+}
+
+.info {
+  font-family: "Ubuntu", Helvetica, sans-serif;
+  font-size: 13px;
+  font-weight: 400;
+  color: rgba(0, 0, 0, 0.73);
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  padding-bottom: 40px;
 }
 
 .social-links {
@@ -437,6 +447,12 @@ footer {
   }
 
   .copy-right {
+    margin-top: 0;
+    padding-bottom: 0;
+    padding-left: 15px;
+  }
+
+  .info {
     margin-top: 0;
     padding-bottom: 0;
     padding-left: 15px;
