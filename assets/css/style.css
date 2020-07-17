@@ -5,13 +5,11 @@ body {
   background-color: rgba(147, 213, 236, 0.3);
 }
 
-/* ------ Header ------ */
-
-.push-right {
-  position: absolute;
-  right: 0;
-  margin-right: 5px;
+html {
+  scroll-behavior: smooth;
 }
+
+/* ------ Header ------ */
 
 .header-background {
   display: -webkit-box;
@@ -76,6 +74,12 @@ body {
 
 .btn {
   font-weight: 600;
+  color: rgba(0, 0, 0, 0.73);
+}
+
+.btn-outline-light:hover {
+  color: rgba(255, 255, 255, 0.9);
+  background-color: rgba(147, 213, 236, 0.333);
 }
 
 /* ------ Review div ------ */
@@ -85,10 +89,20 @@ body {
   margin-bottom: 40px;
 }
 
+.coffee-reviewer {
+  font-family: "Exo", sans-serif;
+  font-weight: 700;
+  color: rgba(0, 0, 0, 0.73);
+  font-size: 15px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
 .paragraph-1 {
-  margin: 100px 50px 0px;
+  margin: 0 50px;
   padding: 20px 140px;
   font-family: "Exo", sans-serif;
+  font-weight: 500;
   color: rgba(0, 0, 0, 0.73);
   font-size: 20px;
   text-align: center;
@@ -125,14 +139,13 @@ body {
 }
 
 .slider-container {
-  margin: 80px 0;
+  margin: 40px 0;
 }
 
 /* ------ Features ------ */
 
 .feature-section {
   padding-top: 40px;
-  padding-bottom: 40px;
   font-family: "Ubuntu", Helvetica, sans-serif;
 }
 
@@ -145,13 +158,16 @@ body {
 }
 
 .feature-image {
-  width: 60%;
-  height: 100%;
+  width: 90%;
+  height: 80%;
   -o-object-fit: cover;
   object-fit: contain;
   -o-object-position: 50% 50%;
   object-position: 50% 50%;
-  margin-left: 25%;
+}
+
+.col-lg-6 {
+  padding-left: 40px;
 }
 
 .heading-6 {
@@ -162,9 +178,7 @@ body {
   letter-spacing: 2px;
   text-transform: uppercase;
   text-align: left;
-  margin-top: 40px;
   margin-bottom: 20px;
-  padding-right: 25%;
 }
 
 .paragraph-2 {
@@ -173,13 +187,17 @@ body {
   font-size: 16px;
   text-transform: capitalize;
   text-align: left;
-  padding-right: 25%;
   margin-bottom: 30px;
 }
 
 .shop-btn {
   text-align: center;
   margin-top: 30px;
+}
+
+.btn-outline-dark:hover {
+  color: rgba(0, 0, 0, 0.73);
+  background-color: rgba(239, 212, 183, 0.7);
 }
 
 /* ------ Carousal/slide ------ */
@@ -236,7 +254,7 @@ footer {
   background-color: #efd4b7;
   color: rgba(0, 0, 0, 0.73);
   min-height: 120px;
-  margin: 0;
+  padding-bottom: 40px;
 }
 
 .footer-heading {
@@ -292,23 +310,23 @@ footer {
 /* ------ Subscribe form------ */
 
 .subscribe-form {
-    padding-left: 20px;
+  padding-left: 20px;
 }
 
 .subscribe-form-input-wrapper {
-    text-align: left;
+  text-align: left;
 }
 
 .subscribe-form-input {
-    margin-bottom: 0px;
-    background-color: rgba(255, 255, 255, 0.8);
-    border: none;
+  margin-bottom: 0px;
+  background-color: rgba(255, 255, 255, 0.8);
+  border: none;
 }
 
 .btn--subscribe {
-    background-color: rgba(147, 213, 236, 0.5);
-    border: none;
-    color: rgba(0, 0, 0, 0.73);
+  background-color: rgba(147, 213, 236, 0.5);
+  border: none;
+  color: rgba(0, 0, 0, 0.73);
 }
 
 /* ------ Media query ------ */
@@ -335,7 +353,7 @@ footer {
   }
 
   .feature-section {
-    padding: 40px 20px;
+    padding-top: 0;
   }
 
   .feature-image-mask {
@@ -349,14 +367,18 @@ footer {
   .feature-image {
     width: 100%;
     height: 100%;
-    margin-left: 50%;
+    margin-left: 60%;
   }
 
-  .heading-6,
+  .heading-6 {
+    text-align: center;
+    padding-right: 0;
+    margin: 15px 20%;
+  }
   .paragraph-2 {
     text-align: center;
     padding-right: 0;
-    margin: 20px 20%;
+    margin: 0 20% 50px;
   }
 
   .about-paragraph {
@@ -371,6 +393,10 @@ footer {
     margin: 0 20px;
   }
 
+  .coffee-reviewer {
+    padding: 25px;
+  }
+
   .feature-image {
     width: 140%;
     height: 100%;
@@ -380,11 +406,17 @@ footer {
   .paragraph-2 {
     padding: 0;
     margin: 20px;
+    margin-bottom: 30px;
   }
 
   .carousel-inner img {
     width: 100%;
     height: 400px;
+  }
+
+  .about-header {
+    padding: 0 25px;
+    font-size: 24px;
   }
 
   .about-paragraph {
@@ -395,12 +427,12 @@ footer {
 }
 
 @media only screen and (max-width: 600px) {
-    .copy-right {
-        margin-top: 0;
-    }
+  .copy-right {
+    margin-top: 0;
+  }
 
-    .social-links {
-        margin-bottom: 0;
-        padding-bottom: 0;
-    }
+  .social-links {
+    margin-bottom: 0;
+    padding-bottom: 0;
+  }
 }
