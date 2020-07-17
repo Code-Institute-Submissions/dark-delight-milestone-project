@@ -217,6 +217,7 @@ html {
   text-align: center;
   text-transform: uppercase;
   font-family: "Ubuntu", Helvetica, sans-serif;
+  font-size: 20px;
 }
 
 .about-paragraph {
@@ -254,7 +255,6 @@ footer {
   background-color: #efd4b7;
   color: rgba(0, 0, 0, 0.73);
   min-height: 120px;
-  padding-bottom: 40px;
 }
 
 .footer-heading {
@@ -275,10 +275,8 @@ footer {
   font-weight: 400;
   color: rgba(0, 0, 0, 0.73);
   text-transform: capitalize;
-  text-align: center;
-  margin-top: 40px;
-  margin-bottom: 40px;
   padding-top: 45px;
+  padding-bottom: 50px;
 }
 
 .social-links {
@@ -305,6 +303,13 @@ footer {
 
 .social-links li a i:hover {
   background: rgba(255, 255, 255, 0.9);
+}
+
+.container-fluid img {
+  max-height: 300px;
+  max-width: 50%;
+  margin-left: 70px;
+  margin-top: 10px;
 }
 
 /* ------ Subscribe form------ */
@@ -385,6 +390,10 @@ footer {
     padding-right: 60px;
     padding-left: 60px;
   }
+
+  .container-fluid img {
+    max-width: 75%;
+  }
 }
 
 @media only screen and (max-width: 600px) {
@@ -415,8 +424,10 @@ footer {
   }
 
   .about-header {
-    padding: 0 25px;
-    font-size: 24px;
+    padding: 0;
+    text-align: left;
+    margin-left: 20px;
+    margin-right: 20px;
   }
 
   .about-paragraph {
@@ -424,15 +435,20 @@ footer {
     padding-left: 0;
     text-align: left;
   }
-}
 
-@media only screen and (max-width: 600px) {
   .copy-right {
     margin-top: 0;
+    padding-bottom: 0;
+    padding-left: 15px;
   }
 
   .social-links {
     margin-bottom: 0;
     padding-bottom: 0;
+  }
+
+  .container-fluid img {
+    margin-top: 0;
+    margin-left: 40px;
   }
 }
