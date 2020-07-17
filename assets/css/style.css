@@ -214,6 +214,103 @@ body {
   text-transform: capitalize;
 }
 
+.article-link {
+  text-decoration: none;
+  color: rgba(0, 0, 0, 0.73);
+  text-align: center;
+  font-weight: 500;
+}
+
+a:hover {
+  color: rgba(0, 0, 0, 0.73);
+  font-weight: 700;
+}
+
+#history {
+  margin-bottom: 20px;
+}
+
+/* ------ Footer ------ */
+
+footer {
+  background-color: #efd4b7;
+  color: rgba(0, 0, 0, 0.73);
+  min-height: 120px;
+  margin: 0;
+}
+
+.footer-heading {
+  font-family: "Ubuntu", Helvetica, sans-serif;
+  font-size: 14px;
+  letter-spacing: 1px;
+  font-weight: 300;
+  color: rgba(0, 0, 0, 0.73);
+  text-transform: uppercase;
+  margin-top: 40px;
+  margin-bottom: 20px;
+  margin-left: 20px;
+}
+
+.copy-right {
+  font-family: "Ubuntu", Helvetica, sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+  color: rgba(0, 0, 0, 0.73);
+  text-transform: capitalize;
+  text-align: center;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  padding-top: 45px;
+}
+
+.social-links {
+  padding-bottom: 15px;
+  margin-bottom: 40px;
+  margin-left: 20px;
+}
+
+.social-links li a i {
+  width: 32px;
+  height: 32px;
+  padding: 12px 0;
+  border-radius: 50%;
+  font-size: 13px;
+  line-height: 7px;
+  text-align: center;
+  color: rgba(0, 0, 0, 0.73);
+  background: rgba(147, 213, 236, 0.5);
+  transition: all 0.35s ease-in-out;
+  -moz-transition: all 0.35s ease-in-out;
+  -webkit-transition: all 0.35s ease-in-out;
+  -o-transition: all 0.35s ease-in-out;
+}
+
+.social-links li a i:hover {
+  background: rgba(255, 255, 255, 0.9);
+}
+
+/* ------ Subscribe form------ */
+
+.subscribe-form {
+    padding-left: 20px;
+}
+
+.subscribe-form-input-wrapper {
+    text-align: left;
+}
+
+.subscribe-form-input {
+    margin-bottom: 0px;
+    background-color: rgba(255, 255, 255, 0.8);
+    border: none;
+}
+
+.btn--subscribe {
+    background-color: rgba(147, 213, 236, 0.5);
+    border: none;
+    color: rgba(0, 0, 0, 0.73);
+}
+
 /* ------ Media query ------ */
 
 @media only screen and (max-width: 768px) {
@@ -295,5 +392,15 @@ body {
     padding-left: 0;
     text-align: left;
   }
+}
 
+@media only screen and (max-width: 600px) {
+    .copy-right {
+        margin-top: 0;
+    }
+
+    .social-links {
+        margin-bottom: 0;
+        padding-bottom: 0;
+    }
 }
