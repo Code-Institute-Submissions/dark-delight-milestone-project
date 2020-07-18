@@ -72,7 +72,7 @@
     <section class="product-1">
       <div class="flex-container">
         <div class="row">
-          <div class="col-lg-6">
+          <div class="col-lg-8">
             <div
               id="slider"
               class="carousel slide slider-container"
@@ -118,27 +118,27 @@
               </a>
             </div>
           </div>
-          <div class="col-lg-6">
+          <div class="col-lg-4">
             <h3 class="product-heading">
               dark arabica
             </h3>
             <h5 class="price">€39.99</h5>
-            <h4 class="out-of-stock">this premium product is out of stock</h4>
-            <h5 class="message">
+            <h4 class="out-of-stock">this product is out of stock</h4>
+            <h5 class="product-message">
               sing up and we will notify you when this product becomes available
             </h5>
             <h4 class="flavour">flavour profile:</h4>
-            <h5 class="message">
+            <h5 class="product-message">
               deep flavors of dark chocolate, spice, woodiness.
             </h5>
-            <div class="subscribe-btn">
+            <div class="btn-sign-up">
               <a
-                class="btn btn-outline-light btn-sm btn--subscribe"
+                class="btn btn-outline-light btn-danger btn-sign-up"
                 data-toggle="modal"
-                data-target="#contactModal"
+                data-target="#sign-up-modal"
                 role="button"
               >
-                Subscribe
+                Sign Up
               </a>
             </div>
           </div>
@@ -148,7 +148,7 @@
     <section class="product-2">
       <div class="flex-container">
         <div class="row">
-          <div class="col-lg-6">
+          <div class="col-lg-8">
             <div
               id="slider-2"
               class="carousel slide slider-container"
@@ -206,29 +206,94 @@
               </a>
             </div>
           </div>
-          <div class="col-lg-6">
+          <div class="col-lg-4">
             <h3 class="product-heading">
               light mocha
             </h3>
             <h5 class="price">€39.99</h5>
-            <h4 class="out-of-stock">this premium product is out of stock</h4>
-            <h5 class="message">
+            <h4 class="out-of-stock">this product is out of stock</h4>
+            <h5 class="product-message">
               sing up and we will notify you when this product becomes available
             </h5>
             <h4 class="flavour">flavour profile:</h4>
-            <h5 class="message">
+            <h5 class="product-message">
               traces of sweetness, fruit tanginess, or even a subtle floral
               aroma.
             </h5>
-            <div class="subscribe-btn">
+            <div class="btn-sign-up">
               <a
-                class="btn btn-outline-light btn-sm btn--subscribe"
+                class="btn btn-outline-light btn-danger btn-sign-up"
                 data-toggle="modal"
-                data-target="#contactModal"
+                data-target="#sign-up-modal"
                 role="button"
               >
-                Subscribe
+                Sign Up
               </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="sign-up">
+      <div class="modal" tabindex="-1" role="dialog" id="sign-up-modal">
+        <div class="modal-dialog modal-lg" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title">Thank you for signing up</h5>
+              <button
+                type="button"
+                class="close"
+                data-dismiss="modal"
+                aria-label="Close"
+              >
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body">
+              <form>
+                <div class="form-group form-row">
+                  <div class="col">
+                    <label for="FirstName">First Name *</label>
+                    <input
+                      type="text"
+                      class="form-control"
+                      placeholder="First name"
+                      required
+                    />
+                  </div>
+                  <div class="col">
+                    <label for="LastName">Last Name *</label>
+                    <input
+                      type="text"
+                      class="form-control"
+                      placeholder="Last name"
+                      required
+                    />
+                  </div>
+                </div>
+                <div class="form-group">
+                  <label for="email">Email address *</label>
+                  <input
+                    type="email"
+                    class="form-control"
+                    id="exampleInputEmail1"
+                    aria-describedby="emailHelp"
+                    placeholder="Enter email"
+                    required
+                  />
+                </div>
+                <small id="formHelp" class="form-text text-muted"
+                  >* is required</small
+                >
+                <div class="form-row text-center">
+                  <div class="col">
+                    <button type="submit" class="btn btn-outline-light btn-danger">
+                      Sign Up
+                    </button>
+                  </div>
+                </div>
+              </form>
             </div>
           </div>
         </div>
@@ -277,25 +342,25 @@
                   <input
                     type="email"
                     class="form-control"
-                    id="exampleInputEmail1"
+                    id="exampleInputEmail2"
                     aria-describedby="emailHelp"
                     placeholder="Enter email"
                     required
                   />
                 </div>
                 <textarea
-                  name="message"
-                  id="message"
+                  name="contact-message"
+                  id="contact-message"
                   class="form-control"
                   placeholder="Share your thoughts"
                   rows="5"
                 ></textarea>
-                <small id="formHelp" class="form-text text-muted"
+                <small id="formHelp-2" class="form-text text-muted"
                   >* is required</small
                 >
                 <div class="form-row text-center">
                   <div class="col">
-                    <button type="submit" class="btn btn-outline-dark">
+                    <button type="submit" class="btn btn-outline-light btn-danger">
                       Get in Touch
                     </button>
                   </div>

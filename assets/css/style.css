@@ -2,7 +2,7 @@
 
 body {
   font-family: "Exo", sans-serif;
-  background-color: rgba(147, 213, 236, 0.3);
+  background-color: #fafafa;
 }
 
 html {
@@ -17,7 +17,7 @@ html {
   display: -ms-flexbox;
   display: flex;
   height: auto;
-  min-height: 600px;
+  min-height: 650px;
   margin-bottom: 100px;
   padding-bottom: 70px;
   -webkit-box-orient: vertical;
@@ -26,7 +26,7 @@ html {
   -ms-flex-direction: column;
   flex-direction: column;
   background-color: #fff;
-  background-image: url(../images/background-hero-image2.jpg);
+  background-image: url(../images/red-bg-coffee-rs.jpg);
   background-repeat: no-repeat;
   background-position: top center;
   background-size: cover;
@@ -38,35 +38,35 @@ html {
   text-decoration: none;
   padding-right: 20px;
   padding-left: 20px;
+  font-size: 15px;
 }
 
 .transparent-overlay {
-  position: absolute;
-  top: 45%;
-  left: 0;
-  padding-top: 50px;
-  padding-bottom: 50px;
+  padding-top: 150px;
+  padding-left: 150px;
   height: 100%;
   width: 100%;
   background-color: rgba(0, 0, 0, 0);
 }
 
-.display-4 {
+.display {
   font-family: "Ubuntu", Helvetica, sans-serif;
-  font-size: 3.5rem;
+  font-size: 3rem;
   font-weight: 400;
   color: rgba(255, 255, 255, 0.9);
+  padding-right: 5px;
 }
 
-.lead {
+.motto {
   font-family: "Ubuntu", Helvetica, sans-serif;
   font-size: 2rem;
-  font-weight: 600;
+  font-weight: 300;
   color: rgba(255, 255, 255, 0.9);
+  padding-right: 5px;
 }
 
 .navbar-brand {
-  font-size: 1.5rem;
+  font-size: 1.2rem;
 }
 
 .navbar-light .navbar-brand {
@@ -75,13 +75,8 @@ html {
 }
 
 .btn {
-  font-weight: 600;
-  color: rgba(0, 0, 0, 0.73);
-}
-
-.btn-outline-light:hover {
-  color: rgba(255, 255, 255, 0.9);
-  background-color: rgba(147, 213, 236, 0.333);
+  margin-right: 200px;
+  margin-top: 30px;
 }
 
 /* ------ Review div ------ */
@@ -94,7 +89,7 @@ html {
 .coffee-reviewer {
   font-family: "Exo", sans-serif;
   font-weight: 700;
-  color: rgba(0, 0, 0, 0.73);
+  color: rgba(39, 39, 39, 0.73);
   font-size: 15px;
   text-align: center;
   text-transform: uppercase;
@@ -102,7 +97,7 @@ html {
 
 .paragraph-1 {
   margin: 0 50px;
-  padding: 20px 140px;
+  padding: 20px 250px;
   font-family: "Exo", sans-serif;
   font-weight: 500;
   color: rgba(0, 0, 0, 0.73);
@@ -160,8 +155,8 @@ html {
 }
 
 .feature-image {
-  width: 90%;
-  height: 80%;
+  width: 100%;
+  height: 100%;
   -o-object-fit: cover;
   object-fit: contain;
   -o-object-position: 50% 50%;
@@ -170,6 +165,7 @@ html {
 
 .col-lg-6 {
   padding-left: 40px;
+  padding-right: 0;
 }
 
 .heading-6 {
@@ -192,28 +188,27 @@ html {
   margin-bottom: 30px;
 }
 
-.shop-btn {
+.shop-btn-div {
   text-align: center;
   margin-top: 30px;
 }
 
-.btn-outline-dark:hover {
-  color: rgba(0, 0, 0, 0.73);
-  background-color: rgba(239, 212, 183, 0.7);
+.btn--2 {
+  margin: 0 0 5% 0;
 }
 
 /* ------ Carousal/slide ------ */
 
 .carousel-inner img {
   width: 100%;
-  height: 700px;
+  height: 650px;
 }
 
 /* ------ About ------ */
 
 .about-header {
   margin-bottom: 60px;
-  margin-top: 20px;
+  margin-top: 50px;
   color: rgba(0, 0, 0, 0.73);
   font-weight: 500;
   text-align: center;
@@ -254,28 +249,30 @@ a:hover {
 /* ------ Footer ------ */
 
 footer {
-  background-color: #efd4b7;
-  color: rgba(0, 0, 0, 0.73);
+  background-color: #000000e0;
+  color: #fafafa;
   min-height: 120px;
+  margin-top: 30px;
 }
 
 .footer-heading {
   font-family: "Ubuntu", Helvetica, sans-serif;
+  text-align: center;
   font-size: 14px;
   letter-spacing: 1px;
   font-weight: 300;
-  color: rgba(0, 0, 0, 0.73);
+  color: #fafafa;
   text-transform: uppercase;
   margin-top: 40px;
   margin-bottom: 20px;
-  margin-left: 20px;
 }
 
 .copy-right {
   font-family: "Ubuntu", Helvetica, sans-serif;
-  font-size: 15px;
-  font-weight: 400;
-  color: rgba(0, 0, 0, 0.73);
+  text-align: center;
+  font-size: 10px;
+  font-weight: 300;
+  color: #fafafa;
   text-transform: capitalize;
   padding-top: 45px;
   padding-bottom: 10px;
@@ -283,18 +280,19 @@ footer {
 
 .info {
   font-family: "Ubuntu", Helvetica, sans-serif;
-  font-size: 13px;
-  font-weight: 400;
-  color: rgba(0, 0, 0, 0.73);
+  text-align: center;
+  font-size: 10px;
+  font-weight: 300;
+  color: #fafafa;
   text-transform: uppercase;
   letter-spacing: 1px;
   padding-bottom: 40px;
 }
 
 .social-links {
+  text-align: center;
   padding-bottom: 15px;
   margin-bottom: 40px;
-  margin-left: 20px;
 }
 
 .social-links li a i {
@@ -305,8 +303,8 @@ footer {
   font-size: 13px;
   line-height: 7px;
   text-align: center;
-  color: rgba(0, 0, 0, 0.73);
-  background: rgba(147, 213, 236, 0.5);
+  color: #fafafa;
+  background: rgba(255, 1, 1, 0.73);
   transition: all 0.35s ease-in-out;
   -moz-transition: all 0.35s ease-in-out;
   -webkit-transition: all 0.35s ease-in-out;
@@ -315,13 +313,15 @@ footer {
 
 .social-links li a i:hover {
   background: rgba(255, 255, 255, 0.9);
+  color: rgba(255, 1, 1, 0.73);
 }
 
 .container-fluid img {
-  max-height: 300px;
+  max-height: 250px;
   max-width: 50%;
-  margin-left: 70px;
-  margin-top: 10px;
+  margin-left: 90px;
+  padding-top: 20px;
+  padding-left: 50px;
 }
 
 /* ------ Subscribe form------ */
@@ -331,38 +331,54 @@ footer {
 }
 
 .subscribe-form-input-wrapper {
-  text-align: left;
+  text-align: center;
 }
 
 .subscribe-form-input {
   margin-bottom: 0px;
-  background-color: rgba(255, 255, 255, 0.8);
+  background-color: #fafafa;
   border: none;
 }
 
 .btn--subscribe {
-  background-color: rgba(147, 213, 236, 0.5);
+  background-color: rgba(255, 1, 1, 0.73);
   border: none;
-  color: rgba(0, 0, 0, 0.73);
+  color: #fafafa;
+  margin: 0;
+}
+
+/* ----------- Contact form ----------- */
+
+.modal-content {
+  background-color: #fafafacc;
+  color: #000000;
 }
 
 /* ----------- shop.html ----------- */
 
 #page-2 .header-background {
   background-image: none;
-  background-color: #fcfcfcf1;
+  background-color: #fafafa;
   min-height: 0;
   margin-bottom: 0;
-  padding-left: 50px;
-  padding-right: 50px;
-  padding-top: 30px;
+  padding-left: 30px;
+  padding-right: 30px;
+  font-size: 15px;
 }
 
-#page-2 .col-lg-6 {
-  background-color: #fcfcfcf1;
-  padding-left: 70px;
-  padding-right: 70px;
-  padding-bottom: 40px;
+#page-2 .navbar-light .navbar-brand {
+  font-size: 25px;
+}
+
+#page-2 .col-lg-8 {
+  margin-left: 0px;
+  padding-left: 15%;
+  padding-right: 15%;
+  margin-bottom: 70px;
+}
+
+#page-2 .col-lg-4 {
+  padding: 0;
 }
 
 #page-2 .carousel-inner img {
@@ -372,8 +388,9 @@ footer {
 
 .product-heading {
   padding-top: 40px;
-  padding-bottom: 25px;
+  padding-bottom: 10px;
   text-transform: uppercase;
+  font-size: 18px;
   letter-spacing: 2px;
   color: rgba(0, 0, 0, 0.73);
 }
@@ -381,41 +398,70 @@ footer {
 .price {
   color: rgba(0, 0, 0, 0.5);
   font-family: sans-serif;
-  padding-bottom: 25px;
+  padding-bottom: 50px;
   text-decoration: line-through;
 }
 
 .out-of-stock {
-  color: rgba(0, 0, 0, 0.5);
-  padding-bottom: 20px;
+  color: rgba(230, 5, 5, 0.85);
   text-transform: uppercase;
+  font-size: 20px;
 }
 
-.message {
+.product-message {
   color: rgba(0, 0, 0, 0.5);
-  padding-bottom: 20px;
+  padding-bottom: 40px;
+  padding-right: 40%;
   text-transform: capitalize;
+  font-size: 15px;
 }
 
 .flavour {
-  color: #efd4b7;
+  color: rgba(0, 0, 0, 0.73);
   text-transform: capitalize;
-  padding-bottom: 10px;
+}
+
+.btn-sign-up {
+  margin: 0;
+}
+
+#page-2 .btn-outline-light:hover {
+  color: rgba(230, 5, 5, 0.85);
+  background-color: #f8f9fa;
+  border-color: rgba(230, 5, 5, 0.85);
 }
 
 /* ------ Media query ------ */
 
 @media only screen and (max-width: 768px) {
-  .display-4 {
+  .display {
     font-size: 2.5rem;
     font-weight: 400;
     color: rgba(255, 255, 255, 0.9);
   }
 
-  .lead {
+  .motto {
     font-size: 1.5rem;
-    font-weight: 500;
+    font-weight: 300;
     color: rgba(255, 255, 255, 0.9);
+    padding-right: 60px;
+  }
+
+  .btn {
+    margin-right: 230px;
+    margin-top: 15px;
+  }
+
+  .btn--2 {
+    margin: 0 0 10% 0;
+  }
+
+  .paragraph-1 {
+    padding: 20px 100px;
+  }
+
+  .col-lg-6 {
+    padding-left: 0;
   }
 
   .flex-container {
@@ -441,7 +487,7 @@ footer {
   .feature-image {
     width: 100%;
     height: 100%;
-    margin-left: 60%;
+    margin-left: 50%;
   }
 
   .heading-6 {
@@ -460,20 +506,64 @@ footer {
     padding-left: 60px;
   }
 
+  .btn--subscribe {
+    margin-right: 0;
+  }
+
   .container-fluid img {
     max-width: 75%;
+    padding-top: 25px;
+    padding-left: 40px;
+    margin-left: 20px;
+  }
+
+  #page-2 .col-lg-8 {
+    margin-bottom: 0;
+  }
+
+  #page-2 .col-lg-4 {
+    padding-left: 15%;
+    padding-right: 15%;
+    margin-bottom: 70px;
   }
 }
 
 @media only screen and (max-width: 600px) {
-  
   .header-background {
-      padding-right: 0;
-      padding-left: 0;
+    padding-right: 0;
+    padding-left: 0;
+    min-height: 0;
+    max-height: 600px;
   }
-  
+
+  .transparent-overlay {
+    padding-top: 85px;
+    padding-left: 100px;
+    padding-right: 10px;
+    padding-bottom: 0;
+  }
+
+  .display {
+    font-size: 28px;
+  }
+
+  .motto {
+    font-size: 23px;
+    padding-top: 20px;
+    padding-right: 0;
+  }
+
+  .btn {
+    margin-right: 125px;
+    margin-top: 70px;
+  }
+
+  .btn--2 {
+    margin: 0 0 10% 0;
+  }
+
   .paragraph-1 {
-    padding: 0;
+    padding: 0 0 20% 0;
     margin: 0 20px;
   }
 
@@ -484,24 +574,24 @@ footer {
   .feature-image {
     width: 140%;
     height: 100%;
-    margin-left: 40%;
+    margin-left: 30%;
+    padding-bottom: 30%;
   }
 
   .paragraph-2 {
     padding: 0;
     margin: 20px;
-    margin-bottom: 30px;
   }
 
   .carousel-inner img {
     width: 100%;
-    height: 400px;
+    height: 350px;
   }
 
   .about-header {
     padding: 0;
     text-align: left;
-    margin-left: 20px;
+    margin-left: 5%;
     margin-right: 20px;
   }
 
@@ -509,6 +599,12 @@ footer {
     padding-right: 0;
     padding-left: 0;
     text-align: left;
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+
+  .btn--subscribe {
+    margin: 0;
   }
 
   .copy-right {
@@ -530,7 +626,8 @@ footer {
 
   .container-fluid img {
     margin-top: 0;
-    margin-left: 40px;
+    margin-left: 20%;
+    max-width: 50%;
   }
 
   #page-2 .header-background {
@@ -548,31 +645,43 @@ footer {
   .product-heading {
     padding-top: 0;
     font-size: 20px;
-    text-align: center;
+    text-align: left;
     padding-bottom: 20px;
   }
   .price {
     padding-bottom: 20px;
-    text-align: center;
+    text-align: left;
   }
 
   .out-of-stock {
     font-size: 20px;
-    text-align: center;
+    text-align: left;
   }
 
-  .message {
-    text-align: center;
+  .product-message {
+    text-align: left;
     font-size: 15px;
+    padding-right: 0;
   }
 
   .flavour {
     padding-bottom: 20px;
-    text-align: center;
+    text-align: left;
     font-size: 20px;
   }
 
-  .subscribe-btn {
-      text-align: center;
+  .btn-sign-up {
+    text-align: left;
+    margin: 0;
+  }
+
+  #page-2 .col-lg-8 {
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  #page-2 .col-lg-4 {
+    padding-left: 15px;
+    padding-right: 15px;
   }
 }
