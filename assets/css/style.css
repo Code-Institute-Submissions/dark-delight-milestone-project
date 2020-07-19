@@ -353,7 +353,7 @@ footer {
 }
 
 #page-2 .navbar-light .navbar-brand {
-  font-size: 1.5rem;
+  font-size: 1.6rem;
   font-weight: 500;
 }
 
@@ -433,7 +433,7 @@ footer {
 
 @media only screen and (max-width: 768px) {
   .display {
-    font-size: 2.5rem;
+    font-size: 2.4rem;
     font-weight: 400;
     color: rgba(255, 255, 255, 0.9);
   }
@@ -442,12 +442,12 @@ footer {
     font-size: 1.5rem;
     font-weight: 300;
     color: rgba(255, 255, 255, 0.9);
-    padding-right: 60px;
+    padding-right: 20%;
   }
 
   .btn {
-    margin-right: 230px;
-    margin-top: 15px;
+    margin-right: 51%;
+    margin-top: 5px;
   }
 
   .btn--2 {
@@ -542,7 +542,7 @@ footer {
   }
 
   .display {
-    font-size: 28px;
+    font-size: 1.8rem;
   }
 
   .motto {
@@ -554,7 +554,7 @@ footer {
 
   .btn {
     margin-right: 55%;
-    margin-top: 70px;
+    margin-top: 20%;
   }
 
   .btn--2 {
