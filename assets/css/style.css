@@ -425,19 +425,26 @@ footer {
 /* ------ Media query ------ */
 
 @media only screen and (max-width: 1024px) {
-    .transparent-overlay {
-        padding-top: 25%;
-    }
+  .transparent-overlay {
+    padding-top: 25%;
+  }
 
-    .motto {
-        padding-right: 15%;
-    }
+  .motto {
+    padding-right: 15%;
+  }
 
-    .btn {
-        margin-right: 44.2%;
-    }
+  .btn {
+    margin-right: 44.2%;
+  }
+
+  .btn--subscribe {
+    margin-right: 0;
+  }
+
+  .btn-more {
+    margin-right: 0;
+  }
 }
-
 
 @media only screen and (max-width: 768px) {
   .display {
@@ -507,7 +514,8 @@ footer {
   }
 
   .btn--subscribe {
-    margin-right: 0;
+    margin-right: 10%;
+    margin-top: 10px;
   }
 
   .container-fluid img {
@@ -694,5 +702,12 @@ footer {
   #page-2 .col-lg-4 {
     padding-left: 15px;
     padding-right: 15px;
+  }
+}
+
+@media only screen and (max-width: 320px) {
+  .btn--subscribe {
+    margin-right: 8%;
+    margin-top: 10px;
   }
 }
