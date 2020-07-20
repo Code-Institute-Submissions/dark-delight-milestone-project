@@ -272,6 +272,10 @@ Click [Here](https://help.github.com/en/github/creating-cloning-and-archiving-re
 ### Code
 
 -   [Bootstrap4](https://getbootstrap.com/docs/4.4/getting-started/introduction/): Bootstrap Library used throughout the project mainly to make site responsive using the Bootstrap Grid System.
+-   CSS styling:
+    
+    -   .strike [Oblique Strike-through](https://stackoverflow.com/questions/14593415/how-to-strike-through-obliquely-with-css)
+    -   .outline [Creating Text outline in CSS](https://wpshout.com/quick-guides/create-text-outline-css/#:~:text=Just%20declare%20text%2Doutline%3A%201px,basically%20only%20supported%20in%20Chrome.)
 
 ### Content
 
