@@ -120,6 +120,7 @@ This is a marketing website for an imaginary coffee company that roasts and dist
     - Git was used for version control by utilizing the Gitpod terminal to commit to Git and Push to GitHub.
 1. [GitHub:](https://github.com/)
     - GitHub is used to store the projects code after being pushed from Git.
+    - Code-Institute’s [Gitpod-Full-Template](https://github.com/Code-Institute-Org/gitpod-full-template) repository was used to install the helpful extensions for the Gitpod workspace.
 1. [Photoshop:](https://www.adobe.com/ie/products/photoshop.html)
     - Photoshop was used to create the logo, resizing images and editing photos for the website.
 1. [AdobeSpark:](https://spark.adobe.com/)

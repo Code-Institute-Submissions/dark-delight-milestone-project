@@ -37,7 +37,7 @@ html {
   background-color: rgba(0, 0, 0, 0);
 }
 
-.display {
+.heading {
   font-family: "Ubuntu", Helvetica, sans-serif;
   font-size: 3rem;
   font-weight: 400;
@@ -453,7 +453,7 @@ footer {
 }
 
 @media only screen and (max-width: 768px) {
-  .display {
+  .heading {
     font-size: 2.4rem;
     font-weight: 400;
     color: rgba(255, 255, 255, 0.9);
@@ -563,7 +563,7 @@ footer {
     padding-bottom: 0;
   }
 
-  .display {
+  .heading {
     font-size: 1.8rem;
     text-align: center;
     padding-left: 15%;
