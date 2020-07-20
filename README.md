@@ -37,7 +37,31 @@ This is a marketing website for an imaginary coffee company that roasts and dist
         - 	Products: Clean-designed packaging of the products showing the customers the quality they expect out of the brand.
 
 -   ### Wireframes
-    -   All Wireframes - [View](assets/images/wireframes)
+    -   Desktop Wireframes 
+        -   [Main Page](assets/wireframes/dark-delight-desktop-main-page.png)
+        -   [Home Page Review and Products](assets/wireframes/dark-delight-desktop-home-page-review-and-products.png)
+        -   [Gallery Page](assets/wireframes/dark-delight-desktop-home-page-gallery.png)
+        -   [About Page](assets/wireframes/dark-delight-desktop-home-page-about.png)
+        -   [Shop Page](assets/wireframes/dark-delight-desktop-shop-page-gallery.png)
+        -   [Contact Us/Sign Up Form](assets/wireframes/dark-delight-contact-us-sign-up.png)
+        -   [Footer](assets/wireframes/dark-delight-desktop-footer.png)
+
+    -   iPad Wireframes 
+        -   [Main Page](assets/wireframes/dark-delight-ipad-main-page.png)
+        -   [Products Page](assets/wireframes/dark-delight-ipad-products-page.png)
+        -   [Gallery Page](assets/wireframes/dark-delight-ipad-gallery-page.png)
+        -   [About Page](assets/wireframes/dark-delight-ipad-about-page.png)
+        -   [Shop Page](assets/wireframes/dark-delight-ipad-shop-page.png)
+        -   [Footer](assets/wireframes/dark-delight-ipad-footer.png)
+
+    -   Mobile Wireframes 
+        -   [Main Page](assets/wireframes/dark-delight-mobile-main-page.png)
+        -   [Products Page](assets/wireframes/dark-delight-mobile-products-page.png)
+        -   [Gallery Page](assets/wireframes/dark-delight-mobile-gallery-page.png)
+        -   [About Page](assets/wireframes/dark-delight-mobile-about-page.png)
+        -   [Shop Page](assets/wireframes/dark-delight-mobile-shop-page.png)
+        -   [Footer](assets/wireframes/dark-delight-mobile-footer.png)
+
 
 ## Features
 
