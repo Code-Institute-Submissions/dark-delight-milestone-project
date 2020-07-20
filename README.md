@@ -42,7 +42,7 @@ This is a marketing website for an imaginary coffee company that roasts and dist
         -   [Home Page Review and Products](assets/wireframes/dark-delight-desktop-home-page-review-and-products.png)
         -   [Gallery Page](assets/wireframes/dark-delight-desktop-home-page-gallery.png)
         -   [About Page](assets/wireframes/dark-delight-desktop-home-page-about.png)
-        -   [Shop Page](assets/wireframes/dark-delight-desktop-shop-page-gallery.png)
+        -   [Shop Page](assets/wireframes/dark-delight-desktop-shop-page.png)
         -   [Contact Us/Sign Up Form](assets/wireframes/dark-delight-contact-us-sign-up.png)
         -   [Footer](assets/wireframes/dark-delight-desktop-footer.png)
 
