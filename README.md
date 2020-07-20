@@ -1,6 +1,6 @@
 <h1 align="center">Dark Delight Website</h1>
 
-[View the live project here.](https://#)
+[View the live project here.](https://humaid-amin.github.io/dark-delight-milestone-project/.)
 
 <h2 align="center"><img src="assets/images/responsive/dark-delight-responsive-website.png"></h2>
 
