@@ -285,7 +285,7 @@ Click [Here](https://help.github.com/en/github/creating-cloning-and-archiving-re
 -  Hero Image:
     -   [Pongpongching](https://www.freepik.com/free-vector/powerful-coffee-cup-template_7884696.htm)
 
-- Slideshoe Gallery:
+- Slideshow Gallery:
     -   [Pablo Merchán Montes](https://unsplash.com/photos/SCbq6uKCyMY)
     -   [Natanaelginting](https://www.freepik.com/free-photo/yemen-flag-ruffled-beautifully-waving-macro-close-up-shot_1156281.htm#page=1&query=yemen&position=4)
     -   [Rodrigo Flores](https://unsplash.com/photos/T5qjs-63kqQ)
