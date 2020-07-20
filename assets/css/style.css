@@ -431,8 +431,8 @@ footer {
   }
 
   .outline {
-    text-shadow: -0.5px -0.5px 0 #000, 0.5px -0.5px 0 #000, -0.5px 0.5px 0 #000,
-      0.5px 0.5px 0 #000;
+    text-shadow: -0.02px -0.02px 0 black, 0.02px -0.02px 0 black,
+      -0.02px 0.02px 0 black, 0.02px 0.02px 0 black;
   }
 
   .motto {
